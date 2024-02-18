@@ -3204,6 +3204,7 @@ namespace Sorteador12numeros
             // Será executado esta função para ver quem ganhou o jogo.
 
             btnOK.Visible = false;
+            btnBlackJack.Visible = false;
             btnMaisCarta1.Visible = false;
             btnMaisCarta2.Visible = false;
             btnMaisCarta3.Visible = false;
@@ -3410,6 +3411,20 @@ namespace Sorteador12numeros
             btnInicar.Visible = true;
             btnOK.Location = new Point(289, 296);
             lblFundo.Visible = true;
+            painelPlacar.Visible = false;
+        }
+
+        private void MenuSair_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void MenuRegras_Click(object sender, EventArgs e)
+        {
+            FormRegras formRegras = new FormRegras();
+
+            formRegras.Show();
+            
         }
     }
 }

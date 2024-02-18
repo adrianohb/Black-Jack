@@ -55,18 +55,6 @@
             this.timerCarta11 = new System.Windows.Forms.Timer(this.components);
             this.timerVerificacao = new System.Windows.Forms.Timer(this.components);
             this.lblCartaRepetida = new System.Windows.Forms.Label();
-            this.pct6 = new System.Windows.Forms.PictureBox();
-            this.pct7 = new System.Windows.Forms.PictureBox();
-            this.pct8 = new System.Windows.Forms.PictureBox();
-            this.pct9 = new System.Windows.Forms.PictureBox();
-            this.pct10 = new System.Windows.Forms.PictureBox();
-            this.pct11 = new System.Windows.Forms.PictureBox();
-            this.pct5 = new System.Windows.Forms.PictureBox();
-            this.pct4 = new System.Windows.Forms.PictureBox();
-            this.pct3 = new System.Windows.Forms.PictureBox();
-            this.pct2 = new System.Windows.Forms.PictureBox();
-            this.pct1 = new System.Windows.Forms.PictureBox();
-            this.pct0 = new System.Windows.Forms.PictureBox();
             this.lblPontosBanca = new System.Windows.Forms.Label();
             this.lblPontosJogador = new System.Windows.Forms.Label();
             this.btnMaisCarta1 = new System.Windows.Forms.Button();
@@ -83,22 +71,38 @@
             this.lblPlacarJogador = new System.Windows.Forms.Label();
             this.barraProgresso = new System.Windows.Forms.ProgressBar();
             this.painelPlacar = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.lblFundo = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pct6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct11)).BeginInit();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MenuRegras = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.pct5 = new System.Windows.Forms.PictureBox();
+            this.pct4 = new System.Windows.Forms.PictureBox();
+            this.pct3 = new System.Windows.Forms.PictureBox();
+            this.pct2 = new System.Windows.Forms.PictureBox();
+            this.pct1 = new System.Windows.Forms.PictureBox();
+            this.pct0 = new System.Windows.Forms.PictureBox();
+            this.pct11 = new System.Windows.Forms.PictureBox();
+            this.pct10 = new System.Windows.Forms.PictureBox();
+            this.pct9 = new System.Windows.Forms.PictureBox();
+            this.pct8 = new System.Windows.Forms.PictureBox();
+            this.pct7 = new System.Windows.Forms.PictureBox();
+            this.pct6 = new System.Windows.Forms.PictureBox();
+            this.painelPlacar.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pct5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct0)).BeginInit();
-            this.painelPlacar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pct11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct6)).BeginInit();
             this.SuspendLayout();
             // 
             // btnInicar
@@ -303,144 +307,12 @@
             this.lblCartaRepetida.Text = "Repetida?";
             this.lblCartaRepetida.Visible = false;
             // 
-            // pct6
-            // 
-            this.pct6.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct6.Location = new System.Drawing.Point(103, 220);
-            this.pct6.Name = "pct6";
-            this.pct6.Size = new System.Drawing.Size(87, 142);
-            this.pct6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct6.TabIndex = 14;
-            this.pct6.TabStop = false;
-            this.pct6.Visible = false;
-            // 
-            // pct7
-            // 
-            this.pct7.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct7.Location = new System.Drawing.Point(196, 220);
-            this.pct7.Name = "pct7";
-            this.pct7.Size = new System.Drawing.Size(87, 142);
-            this.pct7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct7.TabIndex = 15;
-            this.pct7.TabStop = false;
-            this.pct7.Visible = false;
-            // 
-            // pct8
-            // 
-            this.pct8.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct8.Location = new System.Drawing.Point(289, 220);
-            this.pct8.Name = "pct8";
-            this.pct8.Size = new System.Drawing.Size(87, 142);
-            this.pct8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct8.TabIndex = 16;
-            this.pct8.TabStop = false;
-            this.pct8.Visible = false;
-            // 
-            // pct9
-            // 
-            this.pct9.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct9.Location = new System.Drawing.Point(382, 220);
-            this.pct9.Name = "pct9";
-            this.pct9.Size = new System.Drawing.Size(87, 142);
-            this.pct9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct9.TabIndex = 17;
-            this.pct9.TabStop = false;
-            this.pct9.Visible = false;
-            // 
-            // pct10
-            // 
-            this.pct10.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct10.Location = new System.Drawing.Point(475, 220);
-            this.pct10.Name = "pct10";
-            this.pct10.Size = new System.Drawing.Size(87, 142);
-            this.pct10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct10.TabIndex = 18;
-            this.pct10.TabStop = false;
-            this.pct10.Visible = false;
-            // 
-            // pct11
-            // 
-            this.pct11.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct11.Location = new System.Drawing.Point(568, 220);
-            this.pct11.Name = "pct11";
-            this.pct11.Size = new System.Drawing.Size(87, 142);
-            this.pct11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct11.TabIndex = 19;
-            this.pct11.TabStop = false;
-            this.pct11.Visible = false;
-            // 
-            // pct5
-            // 
-            this.pct5.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct5.Location = new System.Drawing.Point(568, 9);
-            this.pct5.Name = "pct5";
-            this.pct5.Size = new System.Drawing.Size(87, 142);
-            this.pct5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct5.TabIndex = 25;
-            this.pct5.TabStop = false;
-            this.pct5.Visible = false;
-            // 
-            // pct4
-            // 
-            this.pct4.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct4.Location = new System.Drawing.Point(475, 9);
-            this.pct4.Name = "pct4";
-            this.pct4.Size = new System.Drawing.Size(87, 142);
-            this.pct4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct4.TabIndex = 24;
-            this.pct4.TabStop = false;
-            this.pct4.Visible = false;
-            // 
-            // pct3
-            // 
-            this.pct3.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct3.Location = new System.Drawing.Point(382, 9);
-            this.pct3.Name = "pct3";
-            this.pct3.Size = new System.Drawing.Size(87, 142);
-            this.pct3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct3.TabIndex = 23;
-            this.pct3.TabStop = false;
-            this.pct3.Visible = false;
-            // 
-            // pct2
-            // 
-            this.pct2.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct2.Location = new System.Drawing.Point(289, 9);
-            this.pct2.Name = "pct2";
-            this.pct2.Size = new System.Drawing.Size(87, 142);
-            this.pct2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct2.TabIndex = 22;
-            this.pct2.TabStop = false;
-            this.pct2.Visible = false;
-            // 
-            // pct1
-            // 
-            this.pct1.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct1.Location = new System.Drawing.Point(196, 9);
-            this.pct1.Name = "pct1";
-            this.pct1.Size = new System.Drawing.Size(87, 142);
-            this.pct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct1.TabIndex = 21;
-            this.pct1.TabStop = false;
-            this.pct1.Visible = false;
-            // 
-            // pct0
-            // 
-            this.pct0.Image = global::Sorteador12numeros.Properties.Resources._1;
-            this.pct0.Location = new System.Drawing.Point(103, 9);
-            this.pct0.Name = "pct0";
-            this.pct0.Size = new System.Drawing.Size(87, 142);
-            this.pct0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pct0.TabIndex = 20;
-            this.pct0.TabStop = false;
-            this.pct0.Visible = false;
-            // 
             // lblPontosBanca
             // 
             this.lblPontosBanca.AutoSize = true;
             this.lblPontosBanca.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPontosBanca.ForeColor = System.Drawing.Color.White;
-            this.lblPontosBanca.Location = new System.Drawing.Point(129, 154);
+            this.lblPontosBanca.Location = new System.Drawing.Point(99, 172);
             this.lblPontosBanca.Name = "lblPontosBanca";
             this.lblPontosBanca.Size = new System.Drawing.Size(110, 20);
             this.lblPontosBanca.TabIndex = 26;
@@ -452,7 +324,7 @@
             this.lblPontosJogador.AutoSize = true;
             this.lblPontosJogador.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPontosJogador.ForeColor = System.Drawing.Color.White;
-            this.lblPontosJogador.Location = new System.Drawing.Point(129, 197);
+            this.lblPontosJogador.Location = new System.Drawing.Point(99, 197);
             this.lblPontosJogador.Name = "lblPontosJogador";
             this.lblPontosJogador.Size = new System.Drawing.Size(123, 20);
             this.lblPontosJogador.TabIndex = 27;
@@ -524,7 +396,7 @@
             this.lblResultadoPartida.AutoSize = true;
             this.lblResultadoPartida.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoPartida.ForeColor = System.Drawing.Color.Red;
-            this.lblResultadoPartida.Location = new System.Drawing.Point(282, 162);
+            this.lblResultadoPartida.Location = new System.Drawing.Point(282, 172);
             this.lblResultadoPartida.Name = "lblResultadoPartida";
             this.lblResultadoPartida.Size = new System.Drawing.Size(242, 37);
             this.lblResultadoPartida.TabIndex = 33;
@@ -615,22 +487,11 @@
             this.painelPlacar.Controls.Add(this.lblPlacarBanca);
             this.painelPlacar.Controls.Add(this.lblVitoriaJogador);
             this.painelPlacar.Controls.Add(this.lblVitoriaBanca);
-            this.painelPlacar.Location = new System.Drawing.Point(672, 9);
+            this.painelPlacar.Location = new System.Drawing.Point(672, 27);
             this.painelPlacar.Name = "painelPlacar";
-            this.painelPlacar.Size = new System.Drawing.Size(116, 429);
+            this.painelPlacar.Size = new System.Drawing.Size(116, 401);
             this.painelPlacar.TabIndex = 41;
             this.painelPlacar.Visible = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(25, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 20);
-            this.label1.TabIndex = 40;
-            this.label1.Text = "PLACAR:";
             // 
             // label2
             // 
@@ -643,16 +504,184 @@
             this.label2.TabIndex = 41;
             this.label2.Text = "X";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(25, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 20);
+            this.label1.TabIndex = 40;
+            this.label1.Text = "PLACAR:";
+            // 
             // lblFundo
             // 
             this.lblFundo.AutoSize = true;
             this.lblFundo.Font = new System.Drawing.Font("Arial Narrow", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFundo.ForeColor = System.Drawing.Color.Black;
-            this.lblFundo.Location = new System.Drawing.Point(80, 137);
+            this.lblFundo.Location = new System.Drawing.Point(80, 170);
             this.lblFundo.Name = "lblFundo";
             this.lblFundo.Size = new System.Drawing.Size(640, 110);
             this.lblFundo.TabIndex = 42;
             this.lblFundo.Text = "..: Black Jack :..";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuRegras,
+            this.MenuSair});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 43;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // MenuRegras
+            // 
+            this.MenuRegras.Name = "MenuRegras";
+            this.MenuRegras.Size = new System.Drawing.Size(98, 20);
+            this.MenuRegras.Text = "Regras do jogo";
+            this.MenuRegras.Click += new System.EventHandler(this.MenuRegras_Click);
+            // 
+            // MenuSair
+            // 
+            this.MenuSair.Name = "MenuSair";
+            this.MenuSair.Size = new System.Drawing.Size(38, 20);
+            this.MenuSair.Text = "Sair";
+            this.MenuSair.Click += new System.EventHandler(this.MenuSair_Click);
+            // 
+            // pct5
+            // 
+            this.pct5.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct5.Location = new System.Drawing.Point(568, 27);
+            this.pct5.Name = "pct5";
+            this.pct5.Size = new System.Drawing.Size(87, 142);
+            this.pct5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct5.TabIndex = 25;
+            this.pct5.TabStop = false;
+            this.pct5.Visible = false;
+            // 
+            // pct4
+            // 
+            this.pct4.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct4.Location = new System.Drawing.Point(475, 27);
+            this.pct4.Name = "pct4";
+            this.pct4.Size = new System.Drawing.Size(87, 142);
+            this.pct4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct4.TabIndex = 24;
+            this.pct4.TabStop = false;
+            this.pct4.Visible = false;
+            // 
+            // pct3
+            // 
+            this.pct3.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct3.Location = new System.Drawing.Point(382, 27);
+            this.pct3.Name = "pct3";
+            this.pct3.Size = new System.Drawing.Size(87, 142);
+            this.pct3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct3.TabIndex = 23;
+            this.pct3.TabStop = false;
+            this.pct3.Visible = false;
+            // 
+            // pct2
+            // 
+            this.pct2.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct2.Location = new System.Drawing.Point(289, 27);
+            this.pct2.Name = "pct2";
+            this.pct2.Size = new System.Drawing.Size(87, 142);
+            this.pct2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct2.TabIndex = 22;
+            this.pct2.TabStop = false;
+            this.pct2.Visible = false;
+            // 
+            // pct1
+            // 
+            this.pct1.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct1.Location = new System.Drawing.Point(196, 27);
+            this.pct1.Name = "pct1";
+            this.pct1.Size = new System.Drawing.Size(87, 142);
+            this.pct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct1.TabIndex = 21;
+            this.pct1.TabStop = false;
+            this.pct1.Visible = false;
+            // 
+            // pct0
+            // 
+            this.pct0.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct0.Location = new System.Drawing.Point(103, 27);
+            this.pct0.Name = "pct0";
+            this.pct0.Size = new System.Drawing.Size(87, 142);
+            this.pct0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct0.TabIndex = 20;
+            this.pct0.TabStop = false;
+            this.pct0.Visible = false;
+            // 
+            // pct11
+            // 
+            this.pct11.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct11.Location = new System.Drawing.Point(568, 220);
+            this.pct11.Name = "pct11";
+            this.pct11.Size = new System.Drawing.Size(87, 142);
+            this.pct11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct11.TabIndex = 19;
+            this.pct11.TabStop = false;
+            this.pct11.Visible = false;
+            // 
+            // pct10
+            // 
+            this.pct10.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct10.Location = new System.Drawing.Point(475, 220);
+            this.pct10.Name = "pct10";
+            this.pct10.Size = new System.Drawing.Size(87, 142);
+            this.pct10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct10.TabIndex = 18;
+            this.pct10.TabStop = false;
+            this.pct10.Visible = false;
+            // 
+            // pct9
+            // 
+            this.pct9.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct9.Location = new System.Drawing.Point(382, 220);
+            this.pct9.Name = "pct9";
+            this.pct9.Size = new System.Drawing.Size(87, 142);
+            this.pct9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct9.TabIndex = 17;
+            this.pct9.TabStop = false;
+            this.pct9.Visible = false;
+            // 
+            // pct8
+            // 
+            this.pct8.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct8.Location = new System.Drawing.Point(289, 220);
+            this.pct8.Name = "pct8";
+            this.pct8.Size = new System.Drawing.Size(87, 142);
+            this.pct8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct8.TabIndex = 16;
+            this.pct8.TabStop = false;
+            this.pct8.Visible = false;
+            // 
+            // pct7
+            // 
+            this.pct7.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct7.Location = new System.Drawing.Point(196, 220);
+            this.pct7.Name = "pct7";
+            this.pct7.Size = new System.Drawing.Size(87, 142);
+            this.pct7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct7.TabIndex = 15;
+            this.pct7.TabStop = false;
+            this.pct7.Visible = false;
+            // 
+            // pct6
+            // 
+            this.pct6.Image = global::Sorteador12numeros.Properties.Resources._1;
+            this.pct6.Location = new System.Drawing.Point(103, 220);
+            this.pct6.Name = "pct6";
+            this.pct6.Size = new System.Drawing.Size(87, 142);
+            this.pct6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pct6.TabIndex = 14;
+            this.pct6.TabStop = false;
+            this.pct6.Visible = false;
             // 
             // Form1
             // 
@@ -699,23 +728,26 @@
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.lbl0);
             this.Controls.Add(this.btnInicar);
+            this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Black Jack";
-            ((System.ComponentModel.ISupportInitialize)(this.pct6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pct11)).EndInit();
+            this.painelPlacar.ResumeLayout(false);
+            this.painelPlacar.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pct5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct0)).EndInit();
-            this.painelPlacar.ResumeLayout(false);
-            this.painelPlacar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pct11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -780,6 +812,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblFundo;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem MenuRegras;
+        private System.Windows.Forms.ToolStripMenuItem MenuSair;
     }
 }
 
