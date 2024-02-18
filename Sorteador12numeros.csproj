@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85BED293-2E72-4281-A25C-E9DBC65759EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sorteador12numeros</RootNamespace>
+    <AssemblyName>Sorteador12numeros</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\46.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\49.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens cartas numeradas\52.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

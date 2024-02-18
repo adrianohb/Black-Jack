@@ -1,0 +1,5 @@
+﻿A construção começou em 10:41...
+1>------ Compilação iniciada: Projeto: Sorteador12numeros, Configuração: Debug Any CPU ------
+1>  Sorteador12numeros -> C:\HOFFMANN\Programacao C#\Programas desenvolvidos\Sorteador12numeros\bin\Debug\Sorteador12numeros.exe
+========== Compilação: 1 bem-sucedida, 0 com falha, 0 atualizada, 0 ignorada ==========
+========== Compilação concluído às 10:41 e levou 01,176 segundos ==========
